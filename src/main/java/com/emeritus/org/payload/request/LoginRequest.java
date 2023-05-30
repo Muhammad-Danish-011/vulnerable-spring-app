@@ -20,4 +20,12 @@ public class LoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+    public boolean isValid() {
+      
+        // Perform validation based on your requirements
+        // For example, check if the fields are not empty or null
+        return username != null && !username.isEmpty() &&
+               password != null && !password.isEmpty();
+             
+    }
 }
