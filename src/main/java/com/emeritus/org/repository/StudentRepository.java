@@ -1,4 +1,4 @@
-package com.emeritus.org.repository;
+ package com.emeritus.org.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
