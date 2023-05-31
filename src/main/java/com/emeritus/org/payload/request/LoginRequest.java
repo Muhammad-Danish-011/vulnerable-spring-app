@@ -1,5 +1,7 @@
 package com.emeritus.org.payload.request;
 
+import javax.validation.constraints.Email;
+
 public class LoginRequest {
     private String username;
 
@@ -26,6 +28,5 @@ public class LoginRequest {
         // For example, check if the fields are not empty or null
         return username != null && !username.isEmpty() &&
                password != null && !password.isEmpty();
-             
     }
 }
